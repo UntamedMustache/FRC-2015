@@ -19,6 +19,15 @@ public class RobotMap {
 	public static final int drivetrainRightMotorSlave1 = 15;
 	public static final int drivetrainRightMotorSlave2 = 16;
 	
+	// Elevator CAN Device IDs
+	public static final int elevatorMaster = 32;	//TEMPORARY DO NOT PUSH THIS VALUE TO ROBOT
+	public static final int elevatorSlave = 31; 	//TEMPORARY DO NOT PUSH THIS VALUE TO ROBOT
+	
+	// Digital IO IDs
+	public static final int upperLimit = 0;			//TEMPORARY DO NOT PUSH THIS VALUE TO ROBOT
+	public static final int lowerLimit = 1;			//TEMPORARY DO NOT PUSH THIS VALUE TO ROBOT
+	public static final int elevatorEncoderA = 2;	//TEMPORARY DO NOT PUSH THIS VALUE TO ROBOT
+	public static final int elevatorEncoderB = 3;	//TEMPORARY DO NOT PUSH THIS VALUE TO ROBOT
 	
 	// Analog sensor IDs
 	public static final int gyro = 0;
